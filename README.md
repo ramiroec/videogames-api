@@ -1,5 +1,4 @@
 # 🎮 Videogames API
-====================
 
 Una API RESTful para gestionar videojuegos, desarrollada con **Node.js** y **Express.js**.
 
@@ -72,3 +71,13 @@ Para iniciar el servidor, ejecuta el siguiente comando:
 - **express:** framework para crear aplicaciones web con Node.js
 - **body-parser:** middleware para parsear el cuerpo de las solicitudes HTTP
 - **fs:** módulo para interactuar con el sistema de archivos
+
+## 📜 **Licencia**
+Este proyecto está bajo la licencia MIT. Siéntete libre de usar y modificarlo.
+
+---
+
+## Autor
+
+Creado por **Ramiro Estigarribia Canese**.  
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
