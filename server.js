@@ -59,6 +59,7 @@ app.post('/videogames', (req, res) => {
   console.log('Acceso a POST /videogames');
   const videogames = readData();
   const newVideogame = req.body;
+  // Generar nuevo ID (último ID + 1 o 1 si no hay elementos)
   newVideogame.id = videogames.length ? videogames[videogames.length - 1].id + 1 : 1;
   console.log('Nuevo videojuego a insertar:', newVideogame);
   videogames.push(newVideogame);
